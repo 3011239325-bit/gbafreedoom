@@ -1,5 +1,5 @@
 # gbafreedoom（AI辅助移植版）
-我这个gbafreedoom不同于前面的gbafreedoom移植（但是同样是用prboom引擎移植），我这个移植版是用ai帮忙移植的，移植过程为了保证游戏的稳定运行和不奔溃，删除了游戏内的部分估计和油桶以及大量装饰物（每关怪物也只有70只，部分关卡包括BOSS关会更少），使游戏不再容易闪退和崩溃，但也导致游戏为了运行进行了删减，所以这里推荐作弊游玩，这个目前可以当成gba上体验完整流程的freedoom，同时感谢@doomhack的代码与引擎开源和@RetroGamer02的开辟先例以及@KippyKip对于gbadoom引擎的维护与改善
+我这个gbafreedoom不同于前面的gbafreedoom移植（但是同样是用prboom引擎移植），我这个移植版是用ai帮忙移植的，移植过程为了保证游戏的稳定运行和不奔溃，删除了游戏内的部分装饰和油桶以及大量装饰物（每关怪物也只有70只，部分关卡包括BOSS关会更少），使游戏不再容易闪退和崩溃，但也导致游戏为了运行进行了删减，所以这里推荐作弊游玩，这个目前可以当成gba上体验完整流程的freedoom，同时感谢@doomhack的代码与引擎开源和@RetroGamer02的开辟先例以及@KippyKip对于gbadoom引擎的维护与改善
 
 作弊cheats:
 
@@ -36,6 +36,7 @@ Weapon up: A + R
 Weapon down: A + L
 Menu: Start
 
+重点注意
 # GBAfreeDoom（AI辅助移植版）
 
 基于 doomhack 的 [GBADoom](原仓库链接)（prBoom 的 GBA 移植），
