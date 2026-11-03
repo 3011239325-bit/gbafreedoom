@@ -10,6 +10,7 @@ God mode: UP, UP, DOWN, DOWN, LEFT, LEFT, RIGHT, RIGHT
 Ammo & Keys: L, LEFT, R, RIGHT, SELECT,UP, SELECT, UP
 
 Ammo: R, R, SELECT,R, SELECT,UP, UP, LEFT
+
 No Clipping: UP, DOWN, LEFT, RIGHT, UP, DOWN, LEFT, RIGHT
 
 Invincibility: A, B, L, R, L, R, SELECT, SELECT
