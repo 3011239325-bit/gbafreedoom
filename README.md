@@ -50,4 +50,5 @@ Menu: Start
 ## 许可
 - 引擎代码遵循 GPL（来自 prBoom / GBADoom）
 - 游戏素材来自 [Freedoom](链接) 项目（BSD-3）
+- Change license from MIT to GPL-3.0
 
