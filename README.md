@@ -1,41 +1,7 @@
-# gbafreedoom
-AI辅助移植版
+# gbafreedoom（AI辅助移植版）
+我这个gbafreedoom不同于前面的gbafreedoom移植（但是同样是用prboom引擎移植），我这个移植版是用ai帮忙移植的，移植过程为了保证游戏的稳定运行和不奔溃，删除了游戏内的部分估计和油桶以及大量装饰物（每关怪物也只有70只，部分关卡包括BOSS关会更少），使游戏不再容易闪退和崩溃，但也导致游戏为了运行进行了删减，所以这里推荐作弊游玩，这个目前可以当成gba上体验完整流程的freedoom，同时感谢@doomhack的代码与引擎开源和@RetroGamer02的开辟先例以及@KippyKip对于gbadoom引擎的维护与改善
 
-GBAfreeDoom
-
-A port of prBoom to the GBA.
-
-What's hot?
-
-Supports Doom Shareware, Retail, Ultimate and Doom2 IWADS. Plutonia and TNT should mostly work.
-
-No WAD is built into the ROM. GbaWadUtil patches a WAD into the prebuilt engine ROM, with no compiler needed. PWADs (Eg: Sigil) go on top of their IWAD.
-
-Renderer is intact, including Doom's distance lighting and full resolution floors and ceilings.
-
-Monster behaviour is all intact. (I.e sound propagation etc.)
-
-Framerate is pretty variable. Simple areas run at ~35fps and complex areas slow down, but V3's renderer is much faster than earlier versions. Doom1 Episodes 1-3 are all completely playable.
-
-Music and sound effects come from the WAD: the game's own music, played with GUS instrument patches, and its own sound effects. PWADs with custom music and sounds work.
-
-Vanilla DeHackEd patches. GbaWadUtil applies a WAD's DEHACKED lump, or a .deh file with -deh, when it builds the ROM.
-
-What's not?
-
-My Markdown skills.
-
-Demo compatibility is broken.
-
-General optimisation. We're never going to get a perfect 35FPS but I think there is still another 25% left without changing the visual quality/correctness/game behaviour. For reference, the first time I ran a build under the emulator it ran at about 3FPS.
-
-Although it is based on prBoom, most of the engine enhancements (BEX, limit removing etc) have been reverted back to Vanilla. This is either for memory or performance reasons. Sadly, NUTS.wad and Okuplok are right out! Binary DeHackEd patches aren't supported either.
-
-No multiplayer.
-
-KippyKip is maintaining an upstream fork with new features and fixes. KippyKip GBA fork
-
-Cheats:
+作弊cheats:
 
 Chainsaw: L, UP, UP, LEFT, L, SELECT, SELECT, UP
 God mode: UP, UP, DOWN, DOWN, LEFT, LEFT, RIGHT, RIGHT
@@ -50,7 +16,7 @@ Lite-Amp Goggles: DOWN,LEFT, R, LEFT, R, L, L, SELECT
 Exit Level: LEFT,R, LEFT, L, B, LEFT, RIGHT, A
 Toggle FPS counter: A, B, L, UP, DOWN, B, LEFT, LEFT
 
-Controls:
+操控Controls:
 
 Fire: B
 Use / Sprint: A
@@ -60,4 +26,18 @@ Automap: SELECT
 Weapon up: A + R
 Weapon down: A + L
 Menu: Start
+
+# GBAfreeDoom（AI辅助移植版）
+
+基于 doomhack 的 [GBADoom](原仓库链接)（prBoom 的 GBA 移植），
+由我使用 AI 辅助工具进行了删减适配。
+
+## 与原版 GBADoom 的区别
+- 删除了尸体、蜡烛等装饰物以适配 GBA 硬件
+- 大多数关卡怪物削减至约 70 只，部分关卡仅剩 BOSS
+- 补给品减少，建议配合作弊码游玩
+
+## 许可
+- 引擎代码遵循 GPL（来自 prBoom / GBADoom）
+- 游戏素材来自 [Freedoom](链接) 项目（BSD-3）
 
