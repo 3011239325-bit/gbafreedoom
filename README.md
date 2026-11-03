@@ -60,3 +60,5 @@ Menu: Start
 - 游戏素材来自 [Freedoom](链接) 项目（BSD-3）
 - Change license from MIT to GPL-3.0
 
+引擎源码：https://github.com/3011239325-bit/GBADoom
+
