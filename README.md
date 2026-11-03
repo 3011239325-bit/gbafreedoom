@@ -29,12 +29,19 @@ Toggle FPS counter: A, B, L, UP, DOWN, B, LEFT, LEFT
 操控Controls:
 
 Fire: B
+
 Use / Sprint: A
+
 Walk: D-Pad
+
 Strafe: L & R
+
 Automap: SELECT
+
 Weapon up: A + R
+
 Weapon down: A + L
+
 Menu: Start
 
 重点注意
