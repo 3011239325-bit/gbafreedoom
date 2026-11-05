@@ -67,7 +67,7 @@ Menu: Start
 基于 doomhack 的 [GBADoom](原仓库链接)（prBoom 的 GBA 移植），
 由我使用 AI 辅助工具进行了删减适配。
 
-## 与原版 GBAfreeoom 的区别
+## 与原版 freedoom 的区别
 - 删除了尸体、蜡烛等装饰物以适配 GBA 硬件
 - 大多数关卡怪物削减至约 70 只，部分关卡仅剩 BOSS
 - 补给品减少，建议配合作弊码游玩
