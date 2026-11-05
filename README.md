@@ -1,4 +1,18 @@
 # gbafreedoom（AI辅助移植版）
+Unlike previous GBA FreeDoom ports (though this one is also based on the prBoom engine), this port was developed with the assistance of AI.
+
+During the porting process, to ensure stable operation and prevent crashes, I removed some in-game decorations, explosive barrels, and a large number of decorative objects. (The monster count is also capped at 70 per level, with even fewer in some levels, including Boss stages). This significantly reduces game crashes and freezes.
+
+However, this also means the game has been trimmed down for performance. Therefore, playing with cheats is highly recommended. Currently, you can treat this as a version to experience the complete Freedoom campaign on the GBA.
+
+Special thanks to:
+
+· @doomhack for open-sourcing the code and engine.
+· @RetroGamer02 for pioneering the project.
+· @KippyKip for maintaining and improving the GBADoom engine.
+
+Feedback, criticism, and suggestions are all very welcome!
+
 我这个gbafreedoom不同于前面的gbafreedoom移植（但是同样是用prboom引擎移植），我这个移植版是用ai帮忙移植的，移植过程为了保证游戏的稳定运行和不奔溃，删除了游戏内的部分装饰和油桶以及大量装饰物（每关怪物也只有70只，部分关卡包括BOSS关会更少），使游戏不再容易闪退和崩溃，但也导致游戏为了运行进行了删减，所以这里推荐作弊游玩，这个目前可以当成gba上体验完整流程的freedoom，同时感谢@doomhack的代码与引擎开源和@RetroGamer02的开创先河以及@KippyKip对于gbadoom引擎的维护与改善，同时欢迎大家对此提出批评与建议
 
 引擎源码：https://github.com/3011239325-bit/GBADoom
